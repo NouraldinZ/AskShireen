@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ask Shireen · ASPIRE Calgary</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Playfair+Display:wght@600&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'IBM Plex Sans',sans-serif;background:#f7f8f6;color:#1c2b26;min-height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px}
+
+.card{background:#fff;border:1px solid #e5eeeb;border-radius:16px;padding:40px 36px;max-width:440px;width:100%;text-align:center;box-shadow:0 4px 24px rgba(27,107,82,.08)}
+
+.logo{width:52px;height:52px;background:linear-gradient(135deg,#1b6b52,#238a68);border-radius:14px;display:flex;align-items:center;justify-content:center;margin:0 auto 18px;box-shadow:0 4px 12px rgba(27,107,82,.2)}
+.logo svg{width:26px;height:26px;fill:#fff}
+
+h1{font-family:'Playfair Display',serif;font-size:22px;color:#1b6b52;margin-bottom:6px}
+.subtitle{font-size:13px;color:#6a8a7e;margin-bottom:28px;line-height:1.5}
+
+.open-btn{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,#1b6b52,#238a68);color:#fff;text-decoration:none;padding:13px 28px;border-radius:10px;font-size:15px;font-weight:600;font-family:'IBM Plex Sans',sans-serif;transition:opacity .15s;box-shadow:0 4px 12px rgba(27,107,82,.25)}
+.open-btn:hover{opacity:.9}
+.open-btn svg{width:16px;height:16px;fill:#fff}
+
+.note{margin-top:20px;font-size:12px;color:#6a8a7e;line-height:1.6}
+.note a{color:#1b6b52;text-decoration:none}
+.note a:hover{text-decoration:underline}
+
+.footer{margin-top:32px;font-size:11px;color:#a0b4ae;text-align:center}
+.footer strong{color:#6a8a7e}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="logo">
+    <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+  </div>
+
+  <h1>Ask Shireen</h1>
+  <p class="subtitle">ASPIRE Calgary Caseworker Assistant<br>Muslim Food Bank & Community Services</p>
+
+  <!--
+    ─────────────────────────────────────────────────────
+    ONLY THIS LINE NEEDS TO CHANGE WHEN YOU UPDATE THE APP
+    Replace the href value with the new claude.ai artifact URL
+    ─────────────────────────────────────────────────────
+  -->
+  <a class="open-btn" href="https://claude.ai/public/artifacts/YOUR-ARTIFACT-ID-HERE" target="_blank">
+    <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
+    Open Ask Shireen
+  </a>
+
+  <p class="note">
+    First time? You'll need a free <a href="https://claude.ai" target="_blank">Claude.ai account</a> to use the tool.<br>Sign up takes about 2 minutes.
+  </p>
+</div>
+
+<div class="footer">
+  Built in honour of <strong>Shireen</strong>, founder of ASPIRE Calgary<br>
+  and the contributions of <strong>Noureen</strong>
+</div>
+
+</body>
+</html>
